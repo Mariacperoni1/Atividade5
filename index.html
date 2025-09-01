@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- 
+     Main: Conteúdo principal da página
+     Article: Conteúdo independente (faz sentido sozinho)
+     Section: Agrupa conteúdos relacionados
+    -->
+    <main class="container">
+      <header id="main-header">
+        <!-- 
+          Bloco que agrupa o nome (h1) e as informações de contato (address).
+          Isso permite alinhar em coluna (um abaixo do outro) dentro do flex.
+        -->
+        <div class="info-pessoal">
+          <h1>Maria Clara Peroni</h1>
+          <address>
+            <p> Rede Social: <a href="https://github.com/Mariacperoni1">https://github.com/Mariacperoni1</a></p>
+            <p>Idade: 18</p>
+            <p>Email: mariaclaraperoni1000@gmail.com</p>
+          </address>
+        </div>
+
+        <!-- Imagem separada, alinhada à direita -->
+        <img src="imagem/AvatarMaker.png" alt="Avatar" width="200px" />
+      </header>
+
+      <article>
+        <h2>Informações Profissionais</h2>
+        <ol>
+          <li>
+            <h3 class="titulo">Formações Acadêmicas</h3>
+
+            <section>
+              <p>
+                <strong>2024 - 2025</strong> |
+                <a href="https://serra.ifes.edu.br/" target="_blank"
+                  >Instituto Federal do Espitito Santo (IFES)</a
+                >
+              </p>
+              <p id="subtexto">Técino de Informática</p>
+            </section>
+
+            <section>
+              <p>
+                <strong>2023 - 2025</strong> |
+                <a
+                  href="https://www.instagram.com/agenorrorisoficial/"
+                  target="_blank"
+                  >EEEM Prof Renato José da Costa Pacheco</a
+                >
+              </p>
+              <p id="subtexto">Ensino Médio</p>
+            </section>
+          </li>
+
+          <li>
+            <h3 class="titulo">Formações Complementares</h3>
+
+            <section>
+              <p><strong>2023 - 2024</strong></p>
+              <p id="subtexto">Inglês</p>
+            </section>
+          </li>
+
+          <li>
+            <h3 class="titulo">Soft Skills</h3>
+
+            <section>
+              <p><a href="https://tuacarreira.com/trabalho-em-equipe/">Trabalho em Equipe</a></p>
+              <p><a href="https://www.significados.com.br/empatia/">Empatia</a></p>
+            </section>
+          </li>
+        </ol>
+      </article>
+    </main>
+  </body>
+</html>
